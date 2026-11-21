@@ -3,12 +3,12 @@ import pandas as pd
 # 1. Load the CSV file
 df = pd.read_csv("Titanic-Dataset.csv")
 
-# 2. Initial Inspection (from your notes)
-print("Before cleaning:", df.shape)
-print("Columns:", df.columns.tolist())
-print("Data types before:\n", df.dtypes)
-print("\nMissing values:\n", df.isna().sum())
-print("Duplicate rows:", df.duplicated().sum())
+# 2. Pre-Cleaning Data Exploration (Minimum functions, maximum column insight)
+print("--- Pre-Cleaning Dataset Overview ---")
+df.info()
+print("\nSummary Statistics (Numeric & Text):\n", df.describe(include="all").round(2))
+print("\nDuplicate rows:", df.duplicated().sum())
+print("\nFirst 5 rows:\n", df.head())
 
 # 3. Clean column names and text spacing
 df = df.drop(columns=["Unnamed: 0"], errors="ignore")
