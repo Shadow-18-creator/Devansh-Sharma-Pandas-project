@@ -1,4 +1,4 @@
-mport pandas as pd
+import pandas as pd
 
 # 1. Load the CSV file
 df = pd.read_csv("Titanic-Dataset.csv")
