@@ -3,8 +3,10 @@ Name - Devansh Sharma
 Class - CSE-5 
 Admission No. - 2026B01010499
 Project - Exploratory Data Analysis (EDA) of Sample Superstore
-
-
+# Tools used
+* VISUAL STUDIO CODE
+* PANDAS LIBRARY
+* EXCEL DATASHEET
 
 # 🚢 Titanic Dataset Cleaner & Exploratory Data Analysis (EDA)
 
