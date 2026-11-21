@@ -1,3 +1,11 @@
+# My Introduction
+Name - Devansh Sharma
+Class - CSE-5 
+Admission No. - 2026B01010499
+Project - Exploratory Data Analysis (EDA) of Sample Superstore
+
+
+
 # 🚢 Titanic Dataset Cleaner & Exploratory Data Analysis (EDA)
 
 A Python data cleaning and exploratory analysis pipeline built with **Pandas**. This project takes the raw Titanic passenger dataset, standardizes and cleans missing or inconsistent records, engineers new features, exports a clean CSV file, and runs demographic and behavioral survival analyses.
